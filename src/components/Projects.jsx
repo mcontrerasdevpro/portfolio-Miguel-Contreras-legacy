@@ -21,7 +21,7 @@ const projects = [
         description: "Python automation script. Shown here as a documentation site or live dashboard.",
         tech: ["Python", "Pandas", "SQL"],
         link: "#",
-        github: "https://github.com/mcontrerasjaen"
+        github: "https://github.com/mcontrerasjaen/Nnook-gestorCitas"
     }
 ];
 
