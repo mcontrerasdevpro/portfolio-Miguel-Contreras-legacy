@@ -18,7 +18,7 @@ const Modal = ({ isOpen, onClose, project }) => {
             href={project.github} 
             target="_blank" 
             rel="noreferrer"
-            onClick={onClose} // <--- Cierra el modal al hacer clic
+            onClick={onClose}
             className="w-full py-3 bg-primary text-dark font-bold rounded text-center hover:bg-primary/80 transition-all font-mono"
           >
             VIEW CODE (GITHUB)
@@ -29,7 +29,7 @@ const Modal = ({ isOpen, onClose, project }) => {
               href={project.link} 
               target="_blank" 
               rel="noreferrer"
-              onClick={onClose} // <--- Cierra el modal al hacer clic
+              onClick={onClose}
               className="w-full py-3 border-2 border-primary text-primary font-bold rounded text-center hover:bg-primary/10 transition-all font-mono"
             >
               VIEW DEPLOY (LIVE)

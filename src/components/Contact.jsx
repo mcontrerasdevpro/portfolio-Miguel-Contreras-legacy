@@ -26,11 +26,22 @@ const Contact = () => {
                     <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </a>
 
-                {/* Links sociales rápidos */}
-                <div className="flex gap-8 mt-12 text-slate font-mono text-xs uppercase tracking-widest">
-                    <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
-                    <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">GitHub</a>
-                    <a href="https://x.com" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">Twitter</a>
+                <div className="flex justify-center items-center gap-12 mt-8">
+                    <a href="https://www.linkedin.com/in/miguel-c-98101566" target="_blank" rel="noreferrer" className="hover:scale-125 transition-transform duration-300">
+                        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" className="h-8 w-8" />
+                    </a>
+                    <a href="https://discord.com/users/1025451490745258095" target="_blank" rel="noreferrer" className="hover:scale-125 transition-transform duration-300">
+                        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" className="h-8 w-8" />
+                    </a>
+                    <a href="https://x.com/MiguelinC77" target="_blank" rel="noreferrer" className="hover:scale-125 transition-transform duration-300">
+                        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" className="h-8 w-8" />
+                    </a>
+                    <a href="https://www.instagram.com/elsurvi77" target="_blank" rel="noreferrer" className="hover:scale-125 transition-transform duration-300">
+                        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" className="h-8 w-8" />
+                    </a>
+                    <a href="https://www.youtube.com/@elsurvi" target="_blank" rel="noreferrer" className="hover:scale-125 transition-transform duration-300">
+                        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" className="h-8 w-8" />
+                    </a>
                 </div>
             </div>
         </section>

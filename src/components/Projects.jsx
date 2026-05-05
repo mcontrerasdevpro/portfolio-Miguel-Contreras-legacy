@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import Modal from './Modal';
 
 const projects = [
@@ -9,26 +9,27 @@ const projects = [
         link: "https://autenticaci-n-jwt-con-flask-y-react.vercel.app/",
         github: "https://github.com/mcontrerasjaen/Autenticaci-n-JWT-con-Flask-y-React-Miguel-Contreras"
     },
+
     {
-        title: "E-commerce Engine",
-        description: "Dynamic store platform. Backend logic powered by Python/Flask hosted on Render.",
-        tech: ["Python", "Flask", "MySQL"],
+        title: "Healthcare Management System",
+        description: "A comprehensive Primary Care booking platform. Features automated appointment scheduling, patient management, and real-time medical statistics dashboard.",
+        tech: ["Python", "Flask", "SQLAlchemy", "Chart.js"],
         link: "https://spain-fs-pt-130-gecap-p5fx.onrender.com/",
         github: "https://github.com/mcontrerasjaen/spain-fs-pt-130-Gecap"
     },
     {
-        title: "Data Automation Tool",
-        description: "Python automation script. Shown here as a documentation site or live dashboard.",
-        tech: ["Python", "Pandas", "SQL"],
-        link: "#",
-        github: "https://github.com/mcontrerasjaen/Nnook-gestorCitas"
+        title: "Automotive Service Manager",
+        description: "A specialized platform for mechanical workshops. It manages the full vehicle lifecycle, from booking and diagnostic tracking to final delivery and customer follow-up.",
+        tech: ["Python", "Flask", "React", "PostgreSQL"],
+        link: "https://ja-frauto-motor-react-app-web.vercel.app/",
+        github: "https://github.com/mcontrerasjaen/JaFrautoMotor-React-AppWeb"
     }
 ];
 
 const Projects = () => {
     const [selectedProject, setSelectedProject] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [showMore, setShowMore] = useState(false); 
+    const [showMore, setShowMore] = useState(false);
 
     const openModal = (project) => {
         setSelectedProject(project);
@@ -47,7 +48,7 @@ const Projects = () => {
                         key={index}
                         onClick={() => openModal(project)}
                         className="cursor-pointer bg-[#112240] p-6 rounded-xl hover:-translate-y-2 transition-all duration-300 border border-transparent hover:border-primary/30 flex flex-col h-full group shadow-lg hover:shadow-primary/5"
-                    >                        
+                    >
                         <div className="flex justify-between items-start mb-8">
                             <div className="text-primary group-hover:scale-110 transition-transform duration-300">
                                 <svg xmlns="http://w3.org" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -76,7 +77,7 @@ const Projects = () => {
                         </div>
                     </div>
                 ))}
-                
+
                 {showMore && (
                     <div className="border-2 border-dashed border-primary/20 p-6 rounded-xl flex flex-col justify-center items-center text-center min-h-[300px] animate-pulse">
                         <div className="text-primary text-4xl mb-4">
@@ -89,7 +90,7 @@ const Projects = () => {
                     </div>
                 )}
             </div>
-         
+
             <div className="mt-16 text-center">
                 <button
                     onClick={() => setShowMore(!showMore)}
