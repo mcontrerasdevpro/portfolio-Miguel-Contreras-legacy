@@ -5,11 +5,11 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 const App = () => {
-  
+
   return (
     <div className="min-h-screen bg-dark text-light font-mono selection:bg-primary selection:text-dark">
       <nav className="fixed w-full top-0 p-6 flex justify-between items-center bg-dark/90 backdrop-blur-sm z-50 border-b border-white/5">
-        <div className="text-primary text-xl font-bold tracking-tighter">MC<span className="text-white">.dev</span></div>
+        <div className="text-primary text-xl font-bold tracking-tighter">MContreras<span className="text-white">.dev</span></div>
         <ul className="hidden md:flex gap-8 text-[10px] uppercase tracking-[0.2em] font-medium">
           <li><a href="#about" className="hover:text-primary transition-colors">01. About</a></li>
           <li><a href="#projects" className="hover:text-primary transition-colors">02. Projects</a></li>
