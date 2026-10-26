@@ -5,7 +5,7 @@
  */
 export const site = {
   email: 'contact@mcontreras.dev',
-  linkedin: 'https://www.linkedin.com/in/mcontrerasdevpro',
+  linkedin: 'https://www.linkedin.com/in/mcontrerasdev',
   github: 'https://github.com/mcontrerasdevpro',
   company: 'https://nexuraia.com',
 };
