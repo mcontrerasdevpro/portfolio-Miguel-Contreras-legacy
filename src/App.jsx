@@ -17,6 +17,19 @@ const App = () => {
           MContreras<span className="text-white">.dev</span>
         </a>
 
+        {/* Navegación centrada (desktop) */}
+        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-8 text-sm uppercase tracking-[0.2em] font-medium">
+          <a href="#about" className="text-neutral-400 hover:text-primary transition-colors">
+            [ {t.nav.about} ]
+          </a>
+          <a href="#projects" className="text-neutral-400 hover:text-primary transition-colors">
+            [ {t.nav.projects} ]
+          </a>
+          <a href="#contact" className="text-neutral-400 hover:text-primary transition-colors">
+            [ {t.nav.contact} ]
+          </a>
+        </div>
+
         {/* Toggle ES/EN */}
         <div
           className="flex items-center gap-1"
@@ -71,12 +84,11 @@ const App = () => {
           </div>
         </section>
 
-        {/* Navegación anclas (desktop) */}
-        <div className="hidden md:flex justify-center gap-10 text-[10px] uppercase tracking-[0.2em] font-medium mb-8">
-          <a href="#about" className="hover:text-primary transition-colors">{t.nav.about}</a>
-          <a href="#projects" className="hover:text-primary transition-colors">{t.nav.projects}</a>
-          <a href="#experience" className="hover:text-primary transition-colors">{t.experience.label}</a>
-          <a href="#contact" className="hover:text-primary transition-colors">{t.nav.contact}</a>
+        {/* Navegación móvil */}
+        <div className="md:hidden flex justify-center gap-6 text-[11px] uppercase tracking-[0.2em] font-medium mb-10">
+          <a href="#about" className="text-neutral-400 hover:text-primary transition-colors">[ {t.nav.about} ]</a>
+          <a href="#projects" className="text-neutral-400 hover:text-primary transition-colors">[ {t.nav.projects} ]</a>
+          <a href="#contact" className="text-neutral-400 hover:text-primary transition-colors">[ {t.nav.contact} ]</a>
         </div>
 
         <About />

@@ -9,9 +9,9 @@ export const en = {
       'Miguel Contreras portfolio: technical founder with projects in production (VotifAI, Civora, Nexura). AI Engineering, Full Stack SaaS and automation.',
   },
   nav: {
-    about: '01. About',
-    projects: '02. Projects',
-    contact: '03. Contact',
+    about: 'About Me',
+    projects: 'Projects',
+    contact: 'Contact',
   },
   hero: {
     prompt: '> init portfolio --user "MiguelContreras"',

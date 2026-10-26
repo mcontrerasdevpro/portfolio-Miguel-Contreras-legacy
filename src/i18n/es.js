@@ -9,9 +9,9 @@ export const es = {
       'Portafolio de Miguel Contreras: fundador técnico con proyectos en producción (VotifAI, Civora, Nexura). AI Engineering, Full Stack SaaS y automatización.',
   },
   nav: {
-    about: '01. About',
-    projects: '02. Projects',
-    contact: '03. Contact',
+    about: 'Sobre mí',
+    projects: 'Proyectos',
+    contact: 'Contacto',
   },
   hero: {
     prompt: '> init portfolio --user "MiguelContreras"',
