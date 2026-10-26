@@ -18,7 +18,7 @@ export const en = {
     name: 'Miguel Contreras.',
     tagline: '20 years of strategy + Full Stack Code.',
     description:
-      'Technical founder turned Full Stack Developer. Specialized in building robust products that run in production, bringing a business perspective that code alone cannot provide.',
+      'From business to code. Founder of NexuraIA and Full Stack Developer. Specialized in building robust products that run in production, bringing a business perspective that code alone cannot provide.',
     cta: 'Explore my work',
   },
   about: {
